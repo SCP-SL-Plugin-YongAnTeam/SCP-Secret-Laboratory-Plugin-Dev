@@ -3,7 +3,8 @@
     <Metadata>
         <Identity Id="SCP_Secret_Laboratory_Plugin_Dev.e5928e05-92d9-4ec7-9d0f-e63963dbbffd" Version="0.0.0.2" Language="zh-Hans" Publisher="永安404" />
         <DisplayName>SCP Secret Laboratory Plugin Dev</DisplayName>
-        <Description xml:space="preserve">用于方便开发SCP:Secret Laborator插件的扩展</Description>
+        <Description xml:space="preserve">An extension to facilitate the development of SCP: Secret Laborator plugins</Description>
+        <MoreInfo>https://github.com/SCP-SL-Plugin-YongAnTeam/SCP-Secret-Laboratory-Plugin-Dev</MoreInfo>
         <License>LICENSE.txt</License>
         <Tags>SCPSL</Tags>
         <Preview>true</Preview>

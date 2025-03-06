@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" ?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="SCP_Secret_Laboratory_Plugin_Dev.e5928e05-92d9-4ec7-9d0f-e63963dbbffd" Version="0.0.0.2" Language="zh-Hans" Publisher="永安404" />
+        <DisplayName>SCP Secret Laboratory Plugin Dev</DisplayName>
+        <Description xml:space="preserve">用于方便开发SCP:Secret Laborator插件的扩展</Description>
+        <License>LICENSE.txt</License>
+        <Tags>SCPSL</Tags>
+        <Preview>true</Preview>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
+            <ProductArchitecture>amd64</ProductArchitecture>
+        </InstallationTarget>
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[17.0,18.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.ProjectTemplate" d:Source="File" Path="ProjectTemplates" d:TargetPath="ProjectTemplates\EXILED Project Template.zip" />
+        <Asset Type="Microsoft.VisualStudio.ItemTemplate" d:Source="File" Path="ItemTemplates" d:TargetPath="ItemTemplates\EXILED CustomRole Template.zip" />
+    </Assets>
+</PackageManifest>
